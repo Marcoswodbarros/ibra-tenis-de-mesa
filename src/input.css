@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav__items {
+    @apply hover:border-b-2 hover:border-solid hover:border-b-gray-950 hover:trasition hover:duration-200;
+}
+
+.button__movement {
+    @apply hover:bg-black hover:transition hover:duration-700 hidden laptop:block laptop:px-4 animate__animated animate__pulse animate__infinite infinite;
+}
