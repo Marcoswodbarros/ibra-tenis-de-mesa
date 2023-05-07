@@ -12,14 +12,12 @@ function menuOff () {
         menuIcon.style.display = "none";
         arrowIcon.style.display = "none";
         nav.style.display = "block";
-        
     }
 
     else {
         menuIcon.style.display = "none";
         arrowIcon.style.display = "block";
         nav.style.display = "block";
-        location.reload();
     } 
 }
 
