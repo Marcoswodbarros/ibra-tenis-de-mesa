@@ -20,33 +20,34 @@
 <body>
     <header class="flex items-center justify-between p-2 font-barlow">
         <img src="src/images/logo.jpeg" class="h-10" alt="Logo da Ibra Academia de Tênis de Mesa">
-        <nav class="hidden bg-slate-600 h-screen w-screen absolute top-14 right-0 p-4 uppercase animate__animated animate__slideInDown">
-            <ul>
-                <li class="border-b-2 border-black border-solid py-1 text-white">Início</li>
-                <li class="border-b-2 border-black border-solid py-1 text-white">Sobre</li>
-                <li class="border-b-2 border-black border-solid py-1 text-white">Parceiros</li>
-                <li class="border-b-2 border-black border-solid py-1 text-white">O circuito</li>
-                <li class="border-b-2 border-black border-solid py-1 text-white">Contato</li>
+        <nav class="hidden bg-slate-600 h-screen w-screen absolute top-14 right-0 p-4 uppercase animate__animated animate__slideInDown
+        lg:bg-white lg:block lg:static lg:h-auto">
+            <ul class="lg:flex justify-center gap-x-10">
+                <li class="border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black"><a href="">Início</a></li>
+                <li class="border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black"><a href="">Sobre</a></li>
+                <li class="border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black"><a href="">Parceiros</a></li>
+                <li class="border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black"><a href="">O circuito</a></li>
+                <li class="border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black"><a href="">Contato</a></li>
             </ul>
         </nav>
         <a href="#" class="hidden">Circuito Ibra</a>
 
         <div id="header__container--icons">
-            <img src="src/images/bar.png" id="header__icons--menu" class="h-8" alt="Ícone do menu">
+            <img src="src/images/bar.png" id="header__icons--menu" class="h-8 lg:hidden" alt="Ícone do menu">
             <img src="src/images/close.png" id="header__icons--arrow" class="h-8 hidden" alt="Ícone para fechar o menu">
         </div>
     </header>
 
     <main>
-        <div id="main__container--images">
-            <img src="src/images/bg-mobile.png" class="lg:hidden" alt="Plano de fundo do circuito Ibra 2023">
-            <img src="src/images/bg-desktop.png" class="hidden lg:block lg:object-fill lg:w-screen" alt="Plano de fundo do circuito Ibra 2023">
+        <div id="main__container--images" class="bg-green-950 h-screen flex flex-col items-center justify-center gap-y-4">
+            <h1 class="uppercase text-5xl text-white font-barlow">Circuito Ibra 2023</h1>
+            <a href="#" id="main__button" class="main__button--style button__hover">Mais informações</a>
+            
         </div>
 
-        <a href="#" id="main__button" class="main__button--style button__position button__hover">Mais informações</a>
     </main>
     
-    <footer class="bg-green-950 text-white flex flex-col items-center gap-y-2 py-2 font-barlow">
+    <footer class="bg-slate-700 text-white flex flex-col items-center gap-y-2 py-2 font-barlow">
         <h2 class="uppercase">Academia Ibra Tênis de Mesa</h2>
         <div id="footer__container--icons" class="flex gap-x-4">
             <a href="https://api.whatsapp.com/send?phone=81998320016&text=Como%20podemos%20ajudá-lo?" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
