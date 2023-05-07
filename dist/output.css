@@ -558,3 +558,13 @@ video {
 .p-2 {
   padding: 0.5rem;
 }
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+}
