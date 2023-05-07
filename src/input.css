@@ -5,3 +5,11 @@
 .button__position {
     @apply absolute top-2/3 left-1/2 -translate-x-1/2;
 }
+
+.button__hover {
+    @apply hover:bg-green-950 hover:duration-500;
+}
+
+.main__button--style {
+    @apply bg-slate-700 py-2 rounded text-white flex justify-center w-1/2 text-sm font-barlow uppercase;
+}
