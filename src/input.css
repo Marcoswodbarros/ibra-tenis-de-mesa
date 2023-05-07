@@ -11,5 +11,5 @@
 }
 
 .main__button--style {
-    @apply bg-slate-700 py-2 rounded text-white flex justify-center w-1/2 text-sm font-barlow uppercase;
+    @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-white border-solid uppercase py-2 flex justify-center w-1/2 ;
 }

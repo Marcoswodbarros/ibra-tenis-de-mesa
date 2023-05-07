@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <title>Ibra Academia</title>
 </head>
@@ -19,11 +20,13 @@
 <body>
     <header class="flex items-center justify-between p-2 font-barlow">
         <img src="src/images/logo.jpeg" class="h-10" alt="Logo da Ibra Academia de Tênis de Mesa">
-        <nav class=" bg-slate-600 h-screen w-screen absolute top-14 right-0 p-4 uppercase">
+        <nav class="hidden bg-slate-600 h-screen w-screen absolute top-14 right-0 p-4 uppercase animate__animated animate__slideInDown">
             <ul>
-                <li class="border-b-2 border-black border-solid py-1">Início</li>
-                <li class="border-b-2 border-black border-solid py-1">Sobre</li>
-                <li class="border-b-2 border-black border-solid py-1">Entre em contato</li>
+                <li class="border-b-2 border-black border-solid py-1 text-white">Início</li>
+                <li class="border-b-2 border-black border-solid py-1 text-white">Sobre</li>
+                <li class="border-b-2 border-black border-solid py-1 text-white">Parceiros</li>
+                <li class="border-b-2 border-black border-solid py-1 text-white">O circuito</li>
+                <li class="border-b-2 border-black border-solid py-1 text-white">Contato</li>
             </ul>
         </nav>
         <a href="#" class="hidden">Circuito Ibra</a>
@@ -37,7 +40,7 @@
     <main>
         <div id="main__container--images">
             <img src="src/images/bg-mobile.png" class="lg:hidden" alt="Plano de fundo do circuito Ibra 2023">
-            <img src="src/images/bg-desktop.png" class="hidden lg:block" alt="Plano de fundo do circuito Ibra 2023">
+            <img src="src/images/bg-desktop.png" class="hidden lg:block lg:object-fill lg:w-screen" alt="Plano de fundo do circuito Ibra 2023">
         </div>
 
         <a href="#" id="main__button" class="main__button--style button__position button__hover">Mais informações</a>
