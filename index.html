@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -13,7 +17,7 @@
 </head>
 
 <body>
-    <header class="flex items-center justify-between p-2">
+    <header class="flex items-center justify-between p-2 font-barlow">
         <img src="src/images/logo.jpeg" class="h-10" alt="Logo da Ibra Academia de Tênis de Mesa">
         <nav class="hidden bg-slate-600 h-screen w-screen absolute top-14 right-0 pl-4">
             <ul>
@@ -30,11 +34,15 @@
     </header>
 
     <main>
-        <img src="src/images/bg-mobile.png" class="lg:hidden" alt="Plano de fundo do circuito Ibra 2023">
-        <img src="src/images/bg-desktop.png" class="hidden lg:block" alt="Plano de fundo do circuito Ibra 2023">
+        <div id="main__container--images">
+            <img src="src/images/bg-mobile.png" class="lg:hidden" alt="Plano de fundo do circuito Ibra 2023">
+            <img src="src/images/bg-desktop.png" class="hidden lg:block" alt="Plano de fundo do circuito Ibra 2023">
+        </div>
+
+        <a href="#" class="bg-slate-500 py-2 rounded text-white flex justify-center w-1/2 text-sm font-barlow uppercase button__position">Mais informações</a>
     </main>
     
-    <footer class="bg-green-950 text-white flex flex-col items-center gap-y-2 py-2">
+    <footer class="bg-green-950 text-white flex flex-col items-center gap-y-2 py-2 font-barlow">
         <h2 class="uppercase">Academia Ibra Tênis de Mesa</h2>
         <div id="footer__container--icons" class="flex gap-x-4">
             <a href="https://api.whatsapp.com/send?phone=81998320016&text=Como%20podemos%20ajudá-lo?" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
