@@ -1,18 +1,35 @@
 let menuIcon = document.querySelector('#header__icons--menu');
 let arrowIcon = document.querySelector('#header__icons--arrow');
 let nav = document.querySelector('nav');
-let mainButton = document.querySelector('#main__button');
+let lg = window.matchMedia("(min-width:1024px)");
 
-menuIcon.addEventListener("click", function () {
-    menuIcon.style.display = "none";
-    arrowIcon.style.display = "block";
-    nav.style.display = "block";
-    mainButton.style.display = "none";
-})
+menuIcon.addEventListener("click", menuOff);
+arrowIcon.addEventListener("click", menuOn);
+lg.addEventListener("change", menuOff, menuOn);
 
-arrowIcon.addEventListener("click", function () {
-    menuIcon.style.display = "block";
-    arrowIcon.style.display = "none";
-    nav.style.display = "none";
-    mainButton.style.display = "flex";
-})
+function menuOff () {
+    if (window.matchMedia("(min-width:1024px)").matches) {
+        menuIcon.style.display = "none";
+        arrowIcon.style.display = "none";
+        nav.style.display = "block";
+    }
+
+    else {
+        menuIcon.style.display = "none";
+        arrowIcon.style.display = "block";
+        nav.style.display = "block";
+    } 
+}
+
+function menuOn () {
+    if (window.matchMedia("(min-width:1024px)").matches) {
+        menuIcon.style.display = "none";
+        arrowIcon.style.display = "none";
+    }
+
+    else {
+        menuIcon.style.display = "block";
+        arrowIcon.style.display = "none";
+        nav.style.display = "none";
+    }
+}
