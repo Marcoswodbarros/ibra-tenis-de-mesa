@@ -11,9 +11,9 @@
 }
 
 .button__hover {
-    @apply hover:bg-green-950 hover:duration-500;
+    @apply hover:bg-black hover:duration-500;
 }
 
 .main__button--style {
-    @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-white border-solid uppercase py-2 flex justify-center w-1/2 ;
+    @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-white border-solid uppercase py-2 flex justify-center w-1/2 lg:w-1/5;
 }
