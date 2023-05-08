@@ -7,6 +7,12 @@ module.exports = {
         barlow: 'Barlow Condensed',
         roboto: 'Roboto',
       },
+
+      height: {
+        '10h': '10vh',
+        '60h': '60vh',
+        '81h': '81vh',
+      },
     },
   },
   plugins: [],
