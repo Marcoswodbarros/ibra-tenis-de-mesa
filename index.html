@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header class="flex justify-between p-2 font-barlow">
+    <header class="flex items-center justify-between p-2 font-barlow lg:p-0">
         <img src="src/images/logo.jpeg" class="h-10 lg:hidden" alt="Logo da Ibra Academia de Tênis de Mesa">
         <nav class="hidden bg-slate-600 h-screen w-screen absolute top-14 right-0 p-4 uppercase animate__animated animate__slideInDown
         lg:bg-white lg:block lg:static lg:h-auto lg:text-lg lg:max-h-16">
@@ -35,12 +35,12 @@
             </ul>
         </nav>
 
-        <div id="header__logo--container"
-            class="hidden lg:flex lg:items-center lg:justify-center lg:gap-x-4 lg:w-screen lg:bg-slate-700 lg:text-white lg:uppercase">
+        <!-- <div id="header__logo--container"
+            class="hidden lg:flex lg:items-center lg:justify-center lg:gap-x-4 lg:w-full lg:bg-slate-700 lg:text-white lg:uppercase">
             <p>Academia Ibra</p>
             <img src="src/images/logo.jpeg" class="h-10" alt="Logo da Ibra Academia de Tênis de Mesa">
             <p>Fábrica de Campeões</p>
-        </div>
+        </div> -->
 
         <div id="header__container--icons">
             <img src="src/images/bar.png" id="header__icons--menu" class="h-8 lg:hidden" alt="Ícone do menu">
@@ -48,11 +48,11 @@
         </div>
     </header>
 
-    <main style="background-image: url('src/images/2.jpg'); background-size: cover;">
-        <h1 class="uppercase font-barlow text-2xl text-white">- Bem vindos! -</h1>
+    <main style="background-image: url('src/images/2.jpg'); background-size: cover;" class="flex flex-col items-center">
+        <h1 class="uppercase font-barlow text-2xl text-white pt-4">- Bem vindos! -</h1>
         <div id="main__container--images" class="h-screen flex flex-col items-center justify-center gap-y-4">
-            <h1 class="uppercase text-5xl text-white font-barlow">Circuito Ibra 2023</h1>
-            <a href="circuito.html" id="main__button" class="main__button--style button__hover">Mais informações</a>
+            <h2 class="uppercase text-5xl text-white font-barlow">Circuito Ibra 2023</h2>
+            <a href="circuito.html" id="main__button" class="main__button--style button__hover lg:w-3/5">Mais informações</a>
         </div>
 
     </main>
