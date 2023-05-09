@@ -542,6 +542,14 @@ video {
   top: 4rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -738,6 +746,19 @@ video {
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -855,6 +876,10 @@ video {
     height: 4rem;
   }
 
+  .lg\:h-14 {
+    height: 3.5rem;
+  }
+
   .lg\:max-h-16 {
     max-height: 4rem;
   }
@@ -869,6 +894,10 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
   }
 
   .lg\:items-center {
