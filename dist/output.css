@@ -546,6 +546,14 @@ video {
   margin-top: 2rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -630,6 +638,10 @@ video {
 
 .gap-y-4 {
   row-gap: 1rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border-b-2 {
