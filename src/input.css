@@ -21,3 +21,9 @@
 .main__button--style {
     @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-white border-solid uppercase py-2 flex justify-center w-1/2 lg:w-1/5;
 }
+
+
+/* Parceiros */
+.section__article--lg {
+    @apply sm:w-8/12 lg:justify-center lg:w-96 lg:p-0 lg:h-70h lg:rounded lg:border-2 lg:border-slate-900 lg:border-solid;
+}
