@@ -22,6 +22,10 @@ module.exports = {
         '82h': '82vh',
         '90h': '90vh',
       },
+
+      width: {
+        '90w': '90vw',
+      },
     },
   },
   plugins: [],

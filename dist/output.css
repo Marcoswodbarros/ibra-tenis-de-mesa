@@ -570,6 +570,10 @@ video {
   height: 3rem;
 }
 
+.h-70h {
+  height: 70vh;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -578,16 +582,12 @@ video {
   height: 82vh;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-90h {
   height: 90vh;
 }
 
-.h-70h {
-  height: 70vh;
+.h-screen {
+  height: 100vh;
 }
 
 .w-10\/12 {
@@ -604,6 +604,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-90w {
+  width: 90vw;
 }
 
 .list-inside {
@@ -924,10 +928,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:visible {
-    visibility: visible;
-  }
-
   .lg\:static {
     position: static;
   }
@@ -966,10 +966,6 @@ video {
 
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-90h {
-    height: 90vh;
   }
 
   .lg\:max-h-16 {
