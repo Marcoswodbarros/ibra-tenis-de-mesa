@@ -546,16 +546,12 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .box-border {
@@ -578,6 +574,10 @@ video {
   height: 3rem;
 }
 
+.h-50h {
+  height: 50vh;
+}
+
 .h-78h {
   height: 78vh;
 }
@@ -590,8 +590,16 @@ video {
   height: 82vh;
 }
 
+.h-90h {
+  height: 90vh;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-40h {
+  height: 40vh;
 }
 
 .w-10\/12 {

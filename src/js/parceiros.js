@@ -17,5 +17,5 @@ function menuOn() {
     menuIcon.style.display = "block";
     arrowIcon.style.display = "none";
     nav.style.display = "none";
-    main.style.display = "flex";
+    main.style.display = "block";
 }
