@@ -8,6 +8,10 @@ module.exports = {
         roboto: 'Roboto',
       },
 
+      colors: {
+        bodyBgColor: '#070A52',
+      },
+
       height: {
         '10h': '10vh',
         '30h': '30vh',
