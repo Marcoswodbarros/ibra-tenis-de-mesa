@@ -538,18 +538,6 @@ video {
   top: 4rem;
 }
 
-.top-28 {
-  top: 7rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
 .m-4 {
   margin: 1rem;
 }
@@ -578,8 +566,8 @@ video {
   display: none;
 }
 
-.h-10h {
-  height: 10vh;
+.h-1\/222 {
+  height: 93%;
 }
 
 .h-12 {
@@ -604,15 +592,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .w-10\/12 {
