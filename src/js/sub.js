@@ -12,7 +12,6 @@ function menuOff() {
     arrowIcon.style.display = "block";
     nav.style.display = "block";
     main.style.display = "none";
-    // body.style.backgroundColor = "rgb(71, 85, 105)";
 }
 
 function menuOn() {
@@ -20,5 +19,4 @@ function menuOn() {
     arrowIcon.style.display = "none";
     nav.style.display = "none";
     main.style.display = "flex";
-    // body.style.backgroundColor = "rgb(7, 10, 82)";
 }
