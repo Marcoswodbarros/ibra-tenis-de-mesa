@@ -11,12 +11,10 @@ function menuOff() {
     menuIcon.style.display = "none";
     arrowIcon.style.display = "block";
     nav.style.display = "block";
-    titulo.style.display = "none";
 }
 
 function menuOn() {
     menuIcon.style.display = "block";
     arrowIcon.style.display = "none";
     nav.style.display = "none";
-    titulo.style.display = "block";
 }
