@@ -570,10 +570,6 @@ video {
   height: 3rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
 .h-40h {
   height: 40vh;
 }
@@ -832,6 +828,19 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.novo {
+  position: absolute;
+  top: 4rem;
+  right: 0px;
+  display: none;
+  height: 90vh;
+  width: 100vw;
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+  padding: 1rem;
+  text-transform: uppercase;
 }
 
 .header__li--style {
