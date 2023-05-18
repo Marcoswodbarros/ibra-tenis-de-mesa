@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .index__article--border {
-    @apply border-2 border-gray-800 border-solid rounded-lg w-11/12;
+    @apply border-2 border-gray-800 border-solid rounded-lg h-96 w-11/12;
 }
 
 /* .header__li--style {
