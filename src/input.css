@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.testando {
-    @apply bg-gray-500 w-full font-barlow flex flex-col items-center gap-y-8 lg:pt-8;
+.main__patrocinadores {
+    @apply bg-green-900 pt-8 w-full font-barlow flex flex-col items-center gap-y-8;
 }
 
 .index__article--border {
@@ -11,5 +11,9 @@
 }
 
 .index__article--lg {
-    @apply lg:flex-row lg:justify-center lg:h-fit lg:w-5/12 lg:p-4;
+    @apply lg:flex-row lg:gap-x-4 lg:h-52 lg:w-5/12 lg:p-4;
+}
+
+.index__article--hover {
+    @apply lg:hover:bg-green-900 lg:hover:duration-700;
 }

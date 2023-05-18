@@ -566,10 +566,6 @@ video {
   display: none;
 }
 
-.\!h-72 {
-  height: 18rem !important;
-}
-
 .h-12 {
   height: 3rem;
 }
@@ -838,6 +834,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -869,21 +870,16 @@ video {
   transition-duration: 500ms;
 }
 
-.testando {
+.main__patrocinadores {
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
   row-gap: 2rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+  background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+  padding-top: 2rem;
   font-family: Barlow Condensed;
-}
-
-@media (min-width: 1024px) {
-  .testando {
-    padding-top: 2rem;
-  }
 }
 
 .index__article--border {
@@ -898,12 +894,18 @@ video {
 
 @media (min-width: 1024px) {
   .index__article--lg {
-    height: -moz-fit-content;
-    height: fit-content;
+    height: 13rem;
     width: 41.666667%;
     flex-direction: row;
-    justify-content: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
     padding: 1rem;
+  }
+
+  .index__article--hover:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+    transition-duration: 700ms;
   }
 }
 
@@ -955,12 +957,12 @@ video {
     display: none;
   }
 
-  .lg\:h-14 {
-    height: 3.5rem;
+  .lg\:h-12 {
+    height: 3rem;
   }
 
-  .lg\:h-16 {
-    height: 4rem;
+  .lg\:h-14 {
+    height: 3.5rem;
   }
 
   .lg\:h-24 {
@@ -971,17 +973,12 @@ video {
     height: 8rem;
   }
 
-  .lg\:h-56 {
-    height: 14rem;
+  .lg\:h-52 {
+    height: 13rem;
   }
 
   .lg\:h-auto {
     height: auto;
-  }
-
-  .lg\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
   }
 
   .lg\:h-screen {
@@ -998,10 +995,6 @@ video {
 
   .lg\:w-40 {
     width: 10rem;
-  }
-
-  .lg\:w-5\/12 {
-    width: 41.666667%;
   }
 
   .lg\:w-7\/12 {
@@ -1064,10 +1057,6 @@ video {
 
   .lg\:p-0 {
     padding: 0px;
-  }
-
-  .lg\:p-4 {
-    padding: 1rem;
   }
 
   .lg\:py-1 {
