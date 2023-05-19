@@ -526,12 +526,24 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .right-0 {
   right: 0px;
 }
 
 .top-16 {
   top: 4rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.right-8 {
+  right: 2rem;
 }
 
 .m-4 {
@@ -1052,6 +1064,10 @@ video {
     width: 100vw;
   }
 
+  .lg\:w-10\/12 {
+    width: 83.333333%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1110,6 +1126,11 @@ video {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .lg\:pb-8 {
