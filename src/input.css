@@ -11,7 +11,7 @@
 }
 
 .index__article--lg {
-    @apply lg:flex-row lg:gap-x-4 lg:h-52 lg:w-5/12 lg:p-4;
+    @apply lg:flex-row lg:h-52 lg:w-5/12 lg:justify-around lg:p-4;
 }
 
 .index__article--hover {
