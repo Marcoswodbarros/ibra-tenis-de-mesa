@@ -7,7 +7,7 @@
 }
 
 .main__button {
-    @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-black border-solid uppercase py-2 flex justify-center w-1/2 lg:w-1/5;
+    @apply bg-slate-700 font-barlow rounded text-white border-2 border-black border-solid uppercase py-2 flex justify-center w-1/2 lg:text-sm lg:w-1/5;
 }
 
 .main__patrocinadores {
