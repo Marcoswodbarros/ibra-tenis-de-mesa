@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.main__button {
+    @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-black border-solid uppercase py-2 flex justify-center w-1/2 lg:w-1/5;
+}
+
 .main__patrocinadores {
     @apply pt-8 w-full font-barlow flex flex-col items-center gap-y-8 lg:flex-row lg:justify-center lg:gap-x-10 flex-wrap;
 }
