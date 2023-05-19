@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.index__article--border {
-    @apply border-2 border-gray-800 border-solid rounded-lg h-96 w-11/12;
-}
 
 /* .header__li--style {
     @apply border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black;
@@ -20,10 +17,6 @@
 
 .button__hover {
     @apply hover: bg-black hover:duration-500;
-}
-
-.main__button--style {
-    @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-white border-solid uppercase py-2 flex justify-center w-1/2 lg:w-1/5;
 }
 
 

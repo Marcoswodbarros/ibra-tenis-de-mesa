@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.header__nav--li {
+    @apply border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black;
+}
+
 .main__button {
     @apply bg-slate-700 text-lg font-barlow rounded text-white border-2 border-black border-solid uppercase py-2 flex justify-center w-1/2 lg:w-1/5;
 }
