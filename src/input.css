@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .main__patrocinadores {
-    @apply bg-green-900 pt-8 w-full font-barlow flex flex-col items-center gap-y-8 lg:flex-row lg:justify-center lg:gap-x-10 flex-wrap;
+    @apply pt-8 w-full font-barlow flex flex-col items-center gap-y-8 lg:flex-row lg:justify-center lg:gap-x-10 flex-wrap;
 }
 
 .index__article--border {
