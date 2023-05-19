@@ -6,6 +6,10 @@
     @apply border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black;
 }
 
+.main__container--images {
+    @apply flex flex-col items-center justify-center gap-y-4 py-8 px-4 rounded-md lg:bg-blue-950 lg:border-2 lg:border-black lg:border-solid lg:absolute lg:bottom-4 lg:right-4 lg:flex-row lg:gap-x-4 lg:py-2;
+}
+
 .main__button {
     @apply bg-slate-700 font-barlow rounded text-white border-2 border-black border-solid uppercase py-2 flex justify-center w-1/2 lg:text-sm lg:w-1/5;
 }
