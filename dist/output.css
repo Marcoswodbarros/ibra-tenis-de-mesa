@@ -1201,6 +1201,15 @@ video {
     width: 100vw;
   }
 
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:w-auto {
+    width: auto;
+  }
+
   @keyframes pulse {
     50% {
       opacity: .5;
@@ -1209,6 +1218,10 @@ video {
 
   .lg\:animate-pulse {
     animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .lg\:justify-normal {
+    justify-content: normal;
   }
 
   .lg\:justify-center {
