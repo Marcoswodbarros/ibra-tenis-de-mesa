@@ -5,6 +5,7 @@ let main = document.querySelector('#main__intro');
 let titulo = document.querySelector('#main__titulo');
 let circuitoButton = document.querySelector('#circuito__main--link');
 let patrocinadores = document.querySelector('#main__patrocinadores');
+let footer = document.querySelector('footer');
 
 menuIcon.addEventListener("click", menuOff);
 arrowIcon.addEventListener("click", menuOn);
@@ -15,6 +16,7 @@ function menuOff() {
     nav.style.display = "block";
     main.style.display = "none";
     patrocinadores.style.display = "none";
+    footer.style.display = "none";
 }
 
 function menuOn() {
@@ -23,4 +25,5 @@ function menuOn() {
     nav.style.display = "none";
     main.style.display = "flex";
     patrocinadores.style.display = "flex";
+    footer.style.display = "flex";
 }
