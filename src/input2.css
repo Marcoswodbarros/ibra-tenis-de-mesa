@@ -7,10 +7,6 @@
     @apply hover:border-b-2 hover:border-b-black hover:border-solid box-border;
 }
 
-.button__position {
-    @apply absolute top-2/3 left-1/2 -translate-x-1/2;
-}
-
 .button__hover {
     @apply hover: bg-black hover:duration-500;
 }
