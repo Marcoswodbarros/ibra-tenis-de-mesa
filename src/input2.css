@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.li__hover {
-    @apply hover:border-b-2 hover:border-b-black hover:border-solid box-border;
-}
-
 .button__hover {
     @apply hover: bg-black hover:duration-500;
 }
