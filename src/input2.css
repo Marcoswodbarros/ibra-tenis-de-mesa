@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.button__hover {
-    @apply hover: bg-black hover:duration-500;
-}
