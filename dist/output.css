@@ -889,15 +889,26 @@ video {
   }
 }
 
-.li__hover {
+.index__li--hover {
   box-sizing: border-box;
 }
 
-.li__hover:hover {
+.index__li--hover:hover {
   border-bottom-width: 2px;
   border-style: solid;
   --tw-border-opacity: 1;
   border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.circuito__li--hover {
+  box-sizing: border-box;
+}
+
+.circuito__li--hover:hover {
+  border-bottom-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .main__container--images {
