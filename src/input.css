@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .header__nav--li {
-    @apply border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black;
+    @apply border-b-2 border-black border-solid py-3 text-white lg:py-1 lg:border-none lg:text-black hover:border-b-2 hover:border-b-black hover:border-solid box-border;
 }
 
 .main__container--images {

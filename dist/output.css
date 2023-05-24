@@ -869,6 +869,7 @@ video {
 }
 
 .header__nav--li {
+  box-sizing: border-box;
   border-bottom-width: 2px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -877,6 +878,13 @@ video {
   padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.header__nav--li:hover {
+  border-bottom-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -1145,11 +1153,6 @@ video {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .lg\:text-lg {
